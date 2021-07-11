@@ -1,4 +1,4 @@
-// CH2-1.c 陣列的基本運算：存入(store)與取出(retrieve)
+// CH2-1.java 陣列的基本運算：存入(store)與取出(retrieve)
 
 public class Main {
     public static void main(String [] args){
@@ -9,7 +9,7 @@ public class Main {
         a[1]=3;
         a[2]=5;
 
-        for(i=0;i<3;i++){
+        for(i = 0; i < 3; i++){
             System.out.println(a[i]); //列印陣列資料
         }
     }
