@@ -10,7 +10,7 @@ public class Main {
         a[2]=5;
 
         for(i = 0; i < 3; i++){
-            System.out.println(a[i]); //列印陣列資料
+            System.out.printf(a[i] + "\n"); //列印陣列資料
         }
     }
 }

@@ -17,6 +17,6 @@ public class Main {
             sum += s[i];	     		          // 計算總分
         }
         avg = (double)sum/NUM;	              //計算平均
-        System.out.printf("總平均為%.1f分%n", avg);	  //印出平均
+        System.out.printf("總平均為%.1f分\n", avg);	  //印出平均
     }
 }

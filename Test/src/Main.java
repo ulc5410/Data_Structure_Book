@@ -1,24 +1,16 @@
-// CH2_3.c 陣列的應用：計算期中考加權值後的總平均
-import java.util.Scanner;
+// CH2-1.java 陣列的基本運算：存入(store)與取出(retrieve)
 
 public class Main {
-    private static final int NUM = 5; // 假設共5科成績
-
     public static void main(String [] args){
-        int w[] = {6,5,5,3,3}, weight = 0;      // 加權值陣列與總加權值
-        int [] s = new int [5];		            // 成績陣列
-        int sum;		                      // sum:總分
-        double avg;		                      // avg:平均成績
-        Scanner in = new Scanner(System.in); // 讀取輸入用的物件
+        int [] a = new int [3];                    //宣告整數陣列
+        int i;
 
-        sum = 0;	    	                      // 總分初始值
-        for(int i = 0; i < 5; i++){
-            System.out.printf("輸入第%d科成績:", i+1);
-            s[i] = in.nextInt();            // 讀取成績
-            sum += s[i] * w[i];	  		          // 計算加權值後總分
-            weight += w[i];                      // 計算總加權值
+        a[0]=1;                    //資料存入陣列中
+        a[1]=3;
+        a[2]=5;
+
+        for(i = 0; i < 3; i++){
+            System.out.printf(a[i] + "\n"); //列印陣列資料
         }
-        avg=(double)sum/weight;	          //計算加權值後的平均值
-        System.out.printf("總平均為%.1f分%n", avg);	  //印出平均
     }
 }
