@@ -1,5 +1,6 @@
-public class Test {
-    public void main(String [] args){
+import java.util.*;
 
-    }
+class Test{
+
 }
+
