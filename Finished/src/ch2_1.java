@@ -1,3 +1,4 @@
+// CH2-1.c 陣列的基本運算：存入(store)與取出(retrieve)
 
 public class Main {
     public static void main(String [] args){
@@ -11,6 +12,5 @@ public class Main {
         for(i=0;i<3;i++){
             System.out.println(a[i]); //列印陣列資料
         }
-
     }
 }
