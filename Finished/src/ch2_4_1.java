@@ -1,4 +1,4 @@
-// CH2_4-1.c 陣列的應用：計算最高分數、最低分數與平均總成績
+// CH2_4_1.java 陣列的應用：計算最高分數、最低分數與平均總成績
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +13,7 @@ public class Main {
         sum = 0;
         Scanner in = new Scanner(System.in); // 讀取輸入用的物件
 
-        for(int i = 0; i<STU_NUM; i++){
+        for(int i = 0; i < STU_NUM; i++){
             System.out.printf("輸入第%d位同學的成績:", i+1);
             s[i] = in.nextInt();            // 讀取成績
 

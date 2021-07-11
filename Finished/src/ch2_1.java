@@ -1,4 +1,4 @@
-// CH2-1.java 陣列的基本運算：存入(store)與取出(retrieve)
+// CH2_1.java 陣列的基本運算：存入(store)與取出(retrieve)
 
 public class Main {
     public static void main(String [] args){

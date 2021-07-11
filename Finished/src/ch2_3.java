@@ -1,4 +1,4 @@
-// CH2_3.c 陣列的應用：計算期中考加權值後的總平均
+// CH2_3.java 陣列的應用：計算期中考加權值後的總平均
 import java.util.Scanner;
 
 public class Main {
