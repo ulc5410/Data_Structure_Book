@@ -5,22 +5,22 @@ public class Main {
     private static final int STU_NUM = 10;      // 學生人數10名
 
     static int findmax(int a[], int n){         // 比較最高分
-        int i, max = 0;                             // 因成績介於0~100之間
-        for (i = 0; i < n; i++)
+        int max = 0;                             // 因成績介於0~100之間
+        for (int i = 0; i < n; i++)
             if (a[i] > max) max = a[i];
         return max;
     }
 
     static int findmin(int a[], int n){         // 比較最低分
-        int i, min = 100;                          // 因成績介於0~100之間
-        for (i = 0; i < n; i++)
+        int min = 100;                          // 因成績介於0~100之間
+        for (int i = 0; i < n; i++)
             if (a[i] < min) min = a[i];
         return min;
     }
 
     static double findmean(int a[], int n){     // 計算平均分
-        int i, sum = 0;
-        for (i = 0; i < n; i++)
+        int sum = 0;
+        for (int i = 0; i < n; i++)
             sum += a[i];
         return (double) sum / n;
     }
