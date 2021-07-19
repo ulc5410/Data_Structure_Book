@@ -25,7 +25,7 @@ public class Main {
             e[i].name = in.nextLine();
             System.out.printf("銷售金額：");
             e[i].sale = in.nextInt();
-            in.nextLine();
+            in.nextLine(); //去除多餘的換行
             e[i].salary = (int)(20000 + e[i].sale * 0.1);
         }
 
