@@ -56,7 +56,7 @@ public class Main {
             postfix[j++]=pop();
     } /*end of infix-to-postfix*/
 
-    static int p(char d)	//取得運算符的優先權
+    static int  p(char d)	//取得運算符的優先權
     {
         if(d=='*' || d=='/')		  //乘除運算符優先權最高
             return(2);
