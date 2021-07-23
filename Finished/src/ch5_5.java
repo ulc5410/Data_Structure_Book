@@ -1,4 +1,4 @@
-//   程式ch5_4.java    鏈結堆疊
+//   程式ch5_5.java    鏈結佇列
 import java.util.*;
 class Queue{
     public QNODE front = null, rear = null;
