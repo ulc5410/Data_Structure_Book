@@ -4,6 +4,7 @@ import java.util.*;
 class NODE{ //定義節點
     int data;
     NODE link;
+
     static NODE newnode(int key) {
         NODE p = new NODE();
         if(p == null){
