@@ -5,16 +5,7 @@ class BinaryTree{
     TNODE root;
 
     BinaryTree(char d){
-        char lchild, rchild;
-        root = new TNODE(d);
-        Scanner in = new Scanner(System.in); // 讀取輸入用的物件
-
-        System.out.printf("\n輸入%c的左兒子節點：",d);
-        lchild = in.next().charAt(0);
-        System.out.printf("\n輸入%c的右兒子節點：",d);
-        rchild = in.next().charAt(0);
-        root.left = make_tree(lchild); 	//建立左子樹
-        root.right = make_tree(rchild); 	//建立右子樹
+        root = make_tree(d);
     }
 
     class TNODE{
