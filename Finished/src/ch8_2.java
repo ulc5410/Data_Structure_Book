@@ -19,7 +19,7 @@ public class Main {
         int i, j, key;
         for(i = 1; i <= n-1; i++){               //將a[1]~a[n-1]插入至已排序資料中
             key = a[i];                       //從未排序資料中取出第一筆設為key
-            for(j = i-1; j >= 0 && a[j] > key; j--)   //和已排序的資料由後往前逐一比較
+            for(j = i-1; j>=0 && a[j] > key; j--)   //和已排序的資料由後往前逐一比較
                 a[j+1] = a[j];                 //若已排序之資料較大，則此資料向後移
             a[j+1] = key;                     //停止比較後，插入資料key
             System.out.printf("\n第 %d 回合: ", i);    //列印排序中間過程

@@ -16,7 +16,7 @@ public class Main {
 
     static void bubblesort(int a[], int n) {
         int i, j, temp, flag = 1;       //flag儲存資料交換的紀錄
-        for(i = n-1; i >= 1 && flag == 1; i--){
+        for(i = n-1; i>=1 && flag==1; i--){
             flag = 0;                    //重設 flag
             for(j = 0; j < i; j++)        //每回合未排序資料a[0]~a[i]
                 if(a[j] > a[j+1]){        //由前向後比較相鄰資料
